@@ -14,12 +14,17 @@
     "vue-resource": "^0.1.17"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.29.0",
+    "babel-jest": "^30.2.0",
     "body-parser": "^1.14.1",
     "errorhandler": "^1.4.2",
+    "jest": "^30.2.0",
     "method-override": "^2.3.5",
     "morgan": "^1.6.1"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   }
 }
